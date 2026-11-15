@@ -50,3 +50,10 @@ graphify-out/
 graphify_*.ps1
 *.png
 gh.msi
+
+# Agent tooling, build reports and local CLI state
+.agents/
+agent/
+.graphifyignore
+android/build/
+supabase/.temp/
